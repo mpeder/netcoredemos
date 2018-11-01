@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace RegistryReaderTool
 {
     class Program
@@ -21,6 +22,9 @@ namespace RegistryReaderTool
                 }
                 
             }
+
+            System.Windows.Forms.Form GUIForm = new System.Windows.Forms.Form();
+
             Console.ReadLine();
         }
     }
